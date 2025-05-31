@@ -1,5 +1,19 @@
-"scripts": {
-  "dev": "next dev",
-  "build": "next build",
-  "start": "next start"
+{
+  "name": "pay-to-book-miniapp",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "14.1.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "wagmi": "^1.6.6",
+    "viem": "^1.27.2",
+    "@dynamic-labs/sdk-react-core": "^1.1.11",
+    "@dynamic-labs/wagmi-connector": "^1.1.4",
+    "@dynamic-labs/ethereum": "^1.1.1"
+  }
 }
